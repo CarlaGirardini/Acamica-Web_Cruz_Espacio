@@ -27,7 +27,44 @@ body{
     height: 40px;
     width: 40px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     /* justify-self: flex-end; */
+}
+
+.hamburguesa:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+/* Ahora la animación de la hamburguesa */
+
+.hamburguesa:hover .linea:first-of-type{
+    transform: rotate(45deg);
+    position: absolute;
+    transition-duration: 600ms;
+}
+/* .hamburguesa .linea:nth-of-type(2){
+    transition-property: width;
+} */
+.hamburguesa:hover .linea:nth-of-type(2){
+    transform: scale(0);
+    transition-duration: 600ms;
+}
+.hamburguesa:hover .linea:last-of-type{
+    transform: rotate(-45deg);
+    position: absolute;
+    transition-duration: 600ms;
+}
+
+.linea{
+    background-color: bisque;
+    border-radius: 5px;
+    width: 70%;
+    height: 3px;
+    margin: 2px;
 }
 
 .aside{
