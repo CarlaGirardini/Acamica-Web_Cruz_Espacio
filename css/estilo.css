@@ -14,8 +14,8 @@ body{
 }
 
 .header{
-    /* background-image: url("img/Fondo_Cruz.jpg"); */
-    background-image: url("https://scontent.fcor2-2.fna.fbcdn.net/v/t1.0-9/s960x960/51133912_2493680130661406_7075986219619844096_o.png?_nc_cat=104&_nc_ohc=oUy9CqWPWkgAQmAZ93dLBRepf8p4t7goW7_SfFGjg6GIo9Zrnp2J9N3jA&_nc_ht=scontent.fcor2-2.fna&oh=46f0f6927fc11e67e90f40d5acfcfdb5&oe=5E7E892C");
+    background-image: url("../img/Fondo_Cruz.jpg");
+    /* background-image: url("https://scontent.fcor2-2.fna.fbcdn.net/v/t1.0-9/s960x960/51133912_2493680130661406_7075986219619844096_o.png?_nc_cat=104&_nc_ohc=oUy9CqWPWkgAQmAZ93dLBRepf8p4t7goW7_SfFGjg6GIo9Zrnp2J9N3jA&_nc_ht=scontent.fcor2-2.fna&oh=46f0f6927fc11e67e90f40d5acfcfdb5&oe=5E7E892C"); */
     background-color: green;
     /* width: 100%;
     height: 15%; */
@@ -23,7 +23,7 @@ body{
     grid-row: 1/span 1;
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
 
