@@ -83,13 +83,16 @@ body{
 
 }
 
-/* Acá termina el estilo base de todas las vistas */
-
 .main{
     grid-row: 2/span 1;
     grid-column: auto;
+}
+
+/* Acá termina el estilo base de todas las vistas */
+
+.main{
     background-color: palevioletred;
-    height: 100%;
+    /* height: 100%; */
     background-image: url("img/fondoHome.png");
     /* width: 85%; */
 }
