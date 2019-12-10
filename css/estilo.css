@@ -1,3 +1,4 @@
+/* Acá empieza el estilo base para todas las vistas */
 *{
     margin: 0;
     box-sizing: border-box;
@@ -5,22 +6,16 @@
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
     display: grid;
-    grid-template: 15% 1fr 25% / 15% 1fr;
-    /* display: flex;
-    flex-wrap: wrap; */
+    grid-template-rows: 58px 1fr 48px;
+    height: 100vh;
 }
 
 .header{
-    background-image: url("../img/Fondo_Cruz.jpg");
-    /* background-image: url("https://scontent.fcor2-2.fna.fbcdn.net/v/t1.0-9/s960x960/51133912_2493680130661406_7075986219619844096_o.png?_nc_cat=104&_nc_ohc=oUy9CqWPWkgAQmAZ93dLBRepf8p4t7goW7_SfFGjg6GIo9Zrnp2J9N3jA&_nc_ht=scontent.fcor2-2.fna&oh=46f0f6927fc11e67e90f40d5acfcfdb5&oe=5E7E892C"); */
-    background-color: green;
-    /* width: 100%;
-    height: 15%; */
-    grid-column: 1/span 2;
     grid-row: 1/span 1;
+    grid-column: auto;
+    /* height: 58px; */
+    background-color: #222222;
 
     display: flex;
     justify-content: space-between;
@@ -28,12 +23,11 @@ body{
 }
 
 .logo{
-    /* justify-self: center; */
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
     height: 90%;
     margin: 5px;
 }
+
+/* Estilo y animación menú */
 
 .hamburguesa{
     background-color: antiquewhite;
@@ -78,42 +72,27 @@ body{
     margin: 2px;
 }
 
-.aside{
-    background-color: blueviolet;
-    grid-column: 1/span 1;
-    grid-row: 2/span 1;
-    /* height: 60%;
-    width: 15%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    overflow: auto;
-}
+/* Acá termina la animación de la hamburguesa */
 
-.evento{
-    background-color: bisque;
-    height: 150px;
-    width: 100px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-.calendario{
-    background-color: yellow;
-    grid-column: 1/span 1;
+.footer{
     grid-row: 3/span 1;
-    /* height: 100%; */
-    /* width: 15%; */
-    /* align-self: flex-end; */
+    grid-column: auto;
+    /* height: 48px; */
+    background-color: #222222;
     /* position: absolute; */
-    /* z-index: 10; */
+
 }
 
 .main{
+    grid-row: 2/span 1;
+    grid-column: auto;
+}
+
+/* Acá termina el estilo base de todas las vistas */
+
+.main{
     background-color: palevioletred;
-    grid-column: 2/span 1;
-    grid-row: 2/span 2;
-    /* height: 85%;
-    width: 85%; */
+    /* height: 100%; */
+    background-image: url("img/fondoHome.png");
+    /* width: 85%; */
 }
