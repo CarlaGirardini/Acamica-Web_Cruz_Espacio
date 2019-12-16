@@ -30,7 +30,7 @@ body{
 /* Estilo y animación menú */
 
 .hamburguesa{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     border-radius: 5px;
     height: 40px;
     width: 40px;
@@ -65,7 +65,7 @@ body{
 }
 
 .linea{
-    background-color: black;
+    background-color: #fcfcfc;
     border-radius: 5px;
     width: 70%;
     height: 3px;
@@ -77,23 +77,25 @@ body{
 .footer{
     grid-row: 3/span 1;
     grid-column: auto;
-    /* height: 48px; */
     background-color: #222222;
-    /* position: absolute; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.footer a{
+    margin: 0 0.6%;
+    height: 35.4%;
+}
+
+.footer a:hover{
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 .main{
     grid-row: 2/span 1;
     grid-column: auto;
-}
-
-/* Acá termina el estilo base de todas las vistas */
-
-.main{
-    background-image: url("../img/fondoHome.png");
-    background-color: palevioletred;
-    overflow: auto;
 }
 
 .contenido{
@@ -109,9 +111,19 @@ body{
     text-transform: uppercase;
     background-color: transparent;
     color: #fcfcfc;
-    /* BUSCAR ESTA FUENTE!!!!!! */
-    /* font-family: BebasNeue; */
-    font-size: 3rem;  
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
     line-height: 1.21;
     border-color: transparent;
 }
+
+.seccion:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.toggle{
+    display: none;
+}
+
+/* Acá termina el estilo base de todas las vistas */

@@ -1,0 +1,5 @@
+.main{
+    background-image: url("../img/fondoHome.png");
+    background-color: rgb(106, 27, 154);
+    overflow: auto;
+}
