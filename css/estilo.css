@@ -47,7 +47,7 @@ body{
     cursor: pointer;
 }
 
-/* Ahora la animación de la hamburguesa */
+/* Acá empieza la animación de la hamburguesa */
 
 .hamburguesa:hover .linea:first-of-type{
     transform: rotate(45deg);
@@ -100,11 +100,14 @@ body{
 
 .contenido{
     background-color: rgba(106, 27, 154, 0.73);
-    height: 100%;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: ease-out 0.2s;
 }
 
 .seccion{
@@ -123,7 +126,10 @@ body{
 }
 
 .toggle{
-    display: none;
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    transition: ease-out 0.2s;
 }
 
 /* Acá termina el estilo base de todas las vistas */
