@@ -1,17 +1,22 @@
-.cruz-cruz-disco-2 {
-    width: 1366px;
-    height: 768px;
-    background-color: #ffffff;
-}
 ._3063835050312575d_8782121579493457920_o {
-    width: 736px;
-    height: 662px;
-    object-fit: contain;
-  }
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.main {
+  display: flex;
+  background-color: #222222;
+}
+.derecha{
+  display: inline-block;
+}
+.izquieda{
+  background-color: #222222;
+}
   .El-lugar-donde-verdaderamente-se-disfruta-la-noche {
     width: 339px;
     height: 72px;
-    font-family: BebasNeue;
+    font-family: 'Bebas Neue', cursive;
     font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
@@ -24,7 +29,7 @@
   .Cruz-Espacio-le-brinda-una-experiencia-destinada-a-impresionar-a-todos-sus-sentidos-Las-propuestas-artsticas-son-un-diferencial-de-Cruz-Espacio-As-durante-cada-noche-los-ms-variados-eventos-y-la-mejor-msica-se-complementan-incluyendo-la-presencia {
     width: 451px;
     height: 283px;
-    font-family: OpenSans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
@@ -37,8 +42,8 @@
   .Comprar-entradas {
     width: 188px;
     height: 30px;
-    font-family: OpenSans;
-    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -46,6 +51,9 @@
     letter-spacing: normal;
     text-align: left;
     color: #fcfcfc;
+    justify-content: right;
+    align-items: center;
+
   }
   .Rectngulo-38 {
     width: 232px;
@@ -53,4 +61,14 @@
     border-radius: 5px;
     box-shadow: 0 3px 10px 0 rgba(255, 255, 255, 0.16);
     background-color: #c62828;
+    text-align: center;
+    border: none;
+    
+  }
+
+  ._3042008495828564_7070318804114341888_o {
+    width: 68.5%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #222222;
   }
