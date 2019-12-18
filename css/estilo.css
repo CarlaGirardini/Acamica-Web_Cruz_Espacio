@@ -96,6 +96,8 @@ body{
 .main{
     grid-row: 2/span 1;
     grid-column: auto;
+    background-color: #222222;
+    overflow: auto;
 }
 
 .contenido{
