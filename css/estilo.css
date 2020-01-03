@@ -30,7 +30,6 @@ body{
 /* Estilo y animación menú */
 
 .hamburguesa{
-    /* background-color: antiquewhite; */
     border-radius: 5px;
     height: 40px;
     width: 40px;
@@ -39,7 +38,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* justify-self: flex-end; */
 }
 
 .hamburguesa:hover{
@@ -63,7 +61,6 @@ body{
     position: absolute;
     transition-duration: 600ms;
 }
-
 .linea{
     background-color: #fcfcfc;
     border-radius: 5px;
@@ -101,7 +98,10 @@ body{
 }
 
 .contenido{
+    position: absolute;
+    top: 8%;
     background-color: rgba(106, 27, 154, 0.73);
+    width: 100%;
     height: 0;
     opacity: 0;
     visibility: hidden;
@@ -122,6 +122,10 @@ body{
     border-color: transparent;
 }
 
+.seccion a, .seccion a:visited, .seccion a:link, .seccion a:active{
+    text-decoration: none;
+}
+
 .seccion:hover{
     transform: scale(1.03);
     cursor: pointer;
@@ -130,7 +134,7 @@ body{
 .toggle{
     opacity: 1;
     visibility: visible;
-    height: 100%;
+    height: 85%;
     transition: ease-out 0.2s;
 }
 
